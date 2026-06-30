@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment (never commit a real .env)
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Earlier delegation exercise (not part of this project)
+old/
