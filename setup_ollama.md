@@ -18,8 +18,8 @@ This is a good balance of quality and speed for laptop-level CPUs.
    ```
 4. Run project:
    ```bash
-   pip install requests
-   python run_all.py
+   pip install -r requirements.txt
+   python main.py
    ```
 
 Optional API check (PowerShell-safe):
@@ -73,9 +73,9 @@ This gives readers a consistent environment without manual Ollama setup.
    Invoke-RestMethod -Method Post -Uri "http://localhost:11434/api/generate" -ContentType "application/json" -Body (@{ model = "llama3.2:3b"; prompt = "hello"; stream = $false } | ConvertTo-Json -Compress)
    ```
 
-Then run scenarios as usual:
+Then run the demo as usual:
 ```bash
-python run_all.py
+python main.py
 ```
 
 To stop:
