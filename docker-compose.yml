@@ -1,7 +1,7 @@
 services:
   ollama:
     image: ollama/ollama:latest
-    container_name: delegation-ollama
+    container_name: toolcalling-ollama
     ports:
       - "11434:11434"
     volumes:
@@ -15,7 +15,7 @@ services:
 
   ollama-init:
     image: ollama/ollama:latest
-    container_name: delegation-ollama-init
+    container_name: toolcalling-ollama-init
     depends_on:
       ollama:
         condition: service_healthy

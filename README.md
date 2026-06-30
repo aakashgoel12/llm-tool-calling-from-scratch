@@ -75,17 +75,13 @@ every production AI agent does: **model + guardrails**, not "trust the model bli
 2. Register it in the `TOOLS` dict with a clear `description`
 3. That's it — the LLM can now choose it
 
-## Write-ups
+## Read the full story
 
-- [ARTICLE.md](ARTICLE.md) — full beginner-friendly Medium article (story style)
-- [LINKEDIN.md](LINKEDIN.md) — ready-to-post LinkedIn variations
-- [CAROUSEL.md](CAROUSEL.md) — slide-by-slide LinkedIn carousel outline
+📖 **[How Does an AI Actually "Use Tools"? I Built It From Scratch to Find Out](https://medium.com/ai-generative/how-does-an-ai-actually-use-tools-i-built-it-from-scratch-to-find-out-ab1377544ddc?sk=46c56f80996ecbe77aaac16b4c23f6d3)** — the full beginner-friendly walkthrough on Medium.
+
+The same article is included in this repo: [ARTICLE.md](ARTICLE.md).
 
 ## Customize the model
 
 - Copy `.env.example` to `.env`
 - Set `OLLAMA_MODEL` to any Ollama model you prefer
-
----
-
-*The older agent-delegation exercise now lives in the `old/` folder.*
